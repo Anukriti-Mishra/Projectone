@@ -1,4 +1,11 @@
-
+@font-face {
+    font-family: domain;
+    src: url(./DomaineDispCondMedium.ttf);
+}
+@font-face {
+    font-family: canopee;
+    src: url(./Canopee.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,21 +13,22 @@
 }
 html,body
 {
-    height: 100%;
-    width:100%
+    height:100%;
+    width:100vw;
+    background-color:#222 ;
 
 }
 #page1
 {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
-  background-color:#d2c8be;
-  position: relative;
+  background-color:#ddd3ca;
+  
 }
 #nav{
     padding: 30px 30px;
     height: 90px;
-    background-color:#d2c8be;
+    background-color:#dfd7d0;
     width: auto;
     display: flex;
     align-items: center;
@@ -28,14 +36,16 @@ html,body
     border-bottom: 1px solid #222;
 
 }
-#nav h4{
-    font-weight: 100;
+.location
+{
+    font-weight:10;
 }
 .logo
 {
-  height: 130px;
+  height: 100px;
   width: 160px;
   object-fit: cover;
+
 }
 .icon
 {
@@ -48,7 +58,7 @@ html,body
     align-items: center;
     height: 200px;
     justify-content: space-between;
-    border-bottom: 1px solid #222;
+    
 }
 #elem1{
     width: 27%;
@@ -56,15 +66,20 @@ html,body
 
 }
 h4{
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 100;
     margin-top: 20px;
+    font-family:canopee;
 }
 p{
+    margin-top: 10px;
     font-size: 13px;
     margin-bottom: 20px;
+    font-family: domain;
+    color: #2d2b2b;
 }
 #elem2{
-    width: 27%;
+    width: 30%;
     height: 100%;
     padding-left: 10px;
     padding-right: 10px;
@@ -87,7 +102,7 @@ p{
 {
     height:60%;
     width: 100%;
-    overflow: hidden;
+   
     border-radius: 4px;
 }
 #image-div:hover img{
@@ -97,7 +112,57 @@ span{
     color: #fcfbfb;
     margin-left: 8px;
     font-weight: 100;
-    background-color: rgb(213, 102, 58);
-    border-radius: 1.5px;
+    background-color: rgb(223, 73, 14);
+    border-radius: 1.75px;
+    padding:2px;
 }
+
+.txt
+{
+    margin: 50px 8px 8px 30px;
+    height: 170px;
+    font-family: canopee;
+    letter-spacing: 0.7px;
+    font-size: 150px;
+    font-weight: 80;
+    text-align: center;
+    background-color: #222;
+    color: #fcfbfb;
+    width: 97%;
+
+
+
+}
+#memes
+{
+    margin-left: 10px;
+    height: 30%;
+    width: 35%;
+    background-color:rgb(223, 73, 14) ;
+
+}
+#memes h3
+{
+    height: 30%;
+    width: 90% ;
+    font-weight: 100;
+    text-align: center;
+    font-family: canopee;
+    font-size: 30px;
+    letter-spacing: 1px;
+   
+    border-radius: 2px;
+    color: #ede7e2;
+}
+#memes img
+{
+    align-items: center;
+    height: 70%;
+    width: 90% ;
+    border-radius: 6px;
+    background-color: rgb(255, 72, 0)255, 140, 0);
+    padding: 1px 1px;
+
+}
+
 
