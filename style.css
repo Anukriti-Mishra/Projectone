@@ -7,6 +7,7 @@
     src: url(./Canopee.ttf);
 }
 *{
+    cursor: url('red_circle.svg'), auto;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,21 +21,25 @@ html,body
 }
 #page1
 {
-  height: 100%;
+  height: 93vh;
   width: 100vw;
   background-color:#ddd3ca;
   
 }
 #nav{
     padding: 30px 30px;
-    height: 90px;
+    height: 18vh;
     background-color:#dfd7d0;
     width: auto;
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #222;
 
+}
+h3{
+    font-family: domain;
+    font-weight: 80;
 }
 .location
 {
@@ -44,9 +49,7 @@ html,body
 {
   height: 100px;
   width: 160px;
-  object-fit: cover;
-
-}
+  }
 .icon
 {
     height: 30px;
@@ -108,7 +111,8 @@ p{
 #image-div:hover img{
     scale: 1.1;
 }
-span{
+h4 span
+{
     color: #fcfbfb;
     margin-left: 8px;
     font-weight: 100;
@@ -119,50 +123,129 @@ span{
 
 .txt
 {
-    margin: 50px 8px 8px 30px;
+    margin: 50px 10px 5px 10px;
     height: 170px;
     font-family: canopee;
-    letter-spacing: 0.7px;
     font-size: 150px;
     font-weight: 80;
     text-align: center;
     background-color: #222;
     color: #fcfbfb;
-    width: 97%;
-
-
-
+    width: 97vw;
+}
+#page2
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 64vh;
+    background-color:#ddd3ca;
+    
 }
 #memes
 {
-    margin-left: 10px;
-    height: 30%;
-    width: 35%;
+    margin-left: 1vw;
+    height: 60vh;
     background-color:rgb(223, 73, 14) ;
-
-}
+    }
 #memes h3
 {
-    height: 30%;
-    width: 90% ;
+    height: 13%;
     font-weight: 100;
     text-align: center;
     font-family: canopee;
-    font-size: 30px;
-    letter-spacing: 1px;
-   
-    border-radius: 2px;
+    font-size: 40px;  
     color: #ede7e2;
 }
 #memes img
 {
-    align-items: center;
-    height: 70%;
-    width: 90% ;
-    border-radius: 6px;
-    background-color: rgb(255, 72, 0)255, 140, 0);
-    padding: 1px 1px;
+    
+    height: 87%;
+    padding: 2px;
 
+}
+#topnews 
+{
+    border-radius: 2px;
+    margin-left: 2vw;
+    font-size: 14px;
+    color: #222;
+    padding:  20px 40px;
+    height: 60vh;
+    font-family: domain;
+    background-color: #ffffff;
+    border-right: 1px solid #222;
+    list-style-image: url("news-line\ \(1\).svg");
+    
+
+}
+#topnews h3
+{
+    font-weight: 100;
+    font-family: canopee;
+    font-size: 40px; 
+
+}
+#topnews ul
+{
+    margin-top: 10px;
+  
+}
+#latestnews
+{
+    border-radius: 2px;
+    margin-left: 2vw;
+    font-size: 14px;
+    margin-right: 2vw;
+    color: #222;
+    height: 60vh;
+    padding: 20px 40px;
+    font-family: domain;
+    background-color: #f1f1f1;
+    list-style-image: url("news-line\ \(1\).svg");
+}
+#latestnews h3{
+    font-weight: 100;
+    font-family: canopee;
+    font-size: 40px; 
+
+}
+#latestnews ul
+{
+    margin-top: 10px;
+  
+}
+#page3
+{
+    height: 50vh;
+    background-color: #ddd3ca;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#page3 h1{
+    font-family: canopee;
+    font-size: 140px;
+    font-weight:  100;
+    background-color: #222;
+    color: #e3dddd;
+    width: 50%;
+    margin-left: 1vw;
+    text-align: center;
+    height: 80%;
+    letter-spacing: -2px;
+    font-stretch: ultra-condensed;
+    border-radius: 2px;
+} 
+#page3 img{
+    height: 80%;
+    width: 45%;
+    margin-right: 1vw;
+    border-radius: 2px;
+}
+#page4
+{
+    background-color: #222;
+    height: 40vh;
 }
 
 
